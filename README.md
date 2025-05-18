@@ -23,11 +23,10 @@ Implements the core route planning logic with three main methods:
 
 🔹 least_flights_earliest_route(start, end, t1, t2)
 Finds a valid path with:
-
-the least number of flights, and
-
-among them, the earliest arrival.
-
+<ul>
+<li>the least number of flights, and</li>
+<li>among them, the earliest arrival.</li>
+</ul>
 Uses BFS with a custom queue.
 
 🔹 cheapest_route(start, end, t1, t2)
@@ -37,25 +36,23 @@ Uses a min-heap (Dijkstra-like) algorithm.
 
 🔹 least_flights_cheapest_route(start, end, t1, t2)
 Finds a route with:
-
-the least number of flights, and
-
-among them, the lowest fare.
-
+<ul>
+<li>the least number of flights, and</li>
+<li>among them, the lowest fare.</li>
+</ul>
 Uses a priority queue with (flight_count, fare) as priority.
 
 Helper Classes
-Heap: Custom min-heap for priority queue logic.
-
-Queue: Simple FIFO queue for BFS.
-
+<ul>
+<li>Heap: Custom min-heap for priority queue logic.</li>
+<li>Queue: Simple FIFO queue for BFS.</li>
+</ul>
 ### main.py
 Sets up example flights, initializes the planner, and runs all three planning methods.
 
 Demonstrates:
 
 Usage of each planner method.
-
 Comparison with expected outputs for validation.
 
 ✅ Example Task Goals
