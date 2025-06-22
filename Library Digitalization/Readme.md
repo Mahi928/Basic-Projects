@@ -1,4 +1,4 @@
-# 📚 Library Digitalization Project — COL106 Assignment 4
+# 📚 Library Digitalization Project
 
 ## 📝 Overview
 
@@ -81,8 +81,6 @@ Helper utility used for dynamic resizing.
 
 - **Provides `get_next_size()`**: Returns the next prime number greater than twice the current size
 
-> ⚠️ **Do not modify this file**
-
 ---
 
 ### 5. `main.py`
@@ -133,15 +131,3 @@ Each method has been implemented as a different configuration under the `JGBLibr
    - `print_books()`
 
 ---
-
-## 📌 Notes
-
-- **Focus on print formatting** — must strictly follow format for autograding
-- **Variable naming**: Follow the naming convention (`*_lfa`) as instructed
-- **Avoid modifying the structure** of given method signatures
-
----
-
-## 📅 Deadline
-
-**October 29, 11:59 PM**
