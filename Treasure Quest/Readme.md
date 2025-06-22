@@ -59,13 +59,14 @@ Follow these steps to run the code locally:
    cd treasure-quest
 2. **Ensure Python 3 is installed** on your system.
 3. **Run your test file or write your own test script** that uses the StrawHatTreasury class and invokes its methods.
-   Example Test Structure:
+   ## Example Test Structure:
+   ```python
    from straw_hat import StrawHatTreasury
-from treasure import Treasure
-
-treasury = StrawHatTreasury(m=3)
-treasury.add_treasure(Treasure(id=1, size=5, arrival=1))
-treasury.add_treasure(Treasure(id=2, size=3, arrival=2))
-result = treasury.get_completion_time()
-for treasure in result:
-    print(treasure.id, treasure.completion_time)
+   from treasure import Treasure
+   
+   treasury = StrawHatTreasury(m=3)
+   treasury.add_treasure(Treasure(id=1, size=5, arrival=1))
+   treasury.add_treasure(Treasure(id=2, size=3, arrival=2))
+   result = treasury.get_completion_time()
+   for treasure in result:
+       print(treasure.id, treasure.completion_time)
