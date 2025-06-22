@@ -1,65 +1,59 @@
-# Basic-Projects
-This is the repository which contains some basic projects that includes implementation of data structures to solve real world problems.
+# 🚀 Basic Projects Collection
 
-# ✈️ Flight Planner
-A Python-based flight route planner that determines optimal paths between cities based on various criteria like cost, number of flights, and travel time.
+Welcome to **Basic Projects**, a growing repository of thoughtfully designed Python projects — each crafted to strengthen your programming fundamentals through real-world-inspired challenges.
 
-## 📁 Project Structure
-### flight.py
-Defines the Flight class to represent flight data.
+Whether you're a curious beginner or a passionate developer looking to explore how data structures and algorithms come to life, you're in the right place!
 
-Flight(
-    flight_no: int,
-    start_city: int,
-    departure_time: int,
-    end_city: int,
-    arrival_time: int,
-    fare: int
-)
-Each flight has a unique ID, departure and arrival cities, times, and fare. Cities and times are modeled as integers.
+Dive into **4 unique projects** below — each one solving a distinct problem, yet unified by clean design, clear logic, and a focus on practical applications. ✨
 
-### planner.py
-Implements the core route planning logic with three main methods:
+---
 
-🔹 least_flights_earliest_route(start, end, t1, t2)
-Finds a valid path with:
-<ul>
-<li>the least number of flights, and</li>
-<li>among them, the earliest arrival.</li>
-</ul>
-Uses BFS with a custom queue.
+## 🔍 What’s Inside?
 
-🔹 cheapest_route(start, end, t1, t2)
-Finds the cheapest route within the time window.
+### ✈️ Flight Planner
+**Plan flights, optimize connections, and navigate airports like a pro!**  
+This project models a simplified airline route planner that calculates optimal paths between cities, factoring in flight availability and timings. A great showcase of graphs, pathfinding, and scheduling logic.
 
-Uses a min-heap (Dijkstra-like) algorithm.
+➡️ *Explore how Dijkstra's algorithm meets the real world!*
 
-🔹 least_flights_cheapest_route(start, end, t1, t2)
-Finds a route with:
-<ul>
-<li>the least number of flights, and</li>
-<li>among them, the lowest fare.</li>
-</ul>
-Uses a priority queue with (flight_count, fare) as priority.
+---
 
-Helper Classes
-<ul>
-<li>Heap: Custom min-heap for priority queue logic.</li>
-<li>Queue: Simple FIFO queue for BFS.</li>
-</ul>
-### main.py
-Sets up example flights, initializes the planner, and runs all three planning methods.
+### 🪐 Galactic Cargo Management System
+**Forget Earth — logistics just went interstellar!**  
+Manage cargo transfers between planets, balance storage capacities, and handle trade requests. This sci-fi-inspired system blends queues, heaps, and intelligent scheduling in a galaxy far, far away.
 
-Demonstrates:
+➡️ *Perfect for learning object-oriented design and resource allocation strategies.*
 
-Usage of each planner method.
-Comparison with expected outputs for validation.
+---
 
-✅ Example Task Goals
-Task	Objective
-1	Least flights, earliest arrival
-2	Cheapest route
-3	Least flights, among them the cheapest
+### 📚 Library Digitalization
+**From dusty shelves to dynamic databases!**  
+Simulate a digital library system where books can be searched, borrowed, returned, and managed with efficiency. This project incorporates hash maps (without using Python's built-in dict), file I/O, and custom search logic.
 
-## 🚀 How to Run
-python main.py
+➡️ *Experience how data structures can modernize the world of books.*
+
+---
+
+### 🏴‍☠️ Treasure Quest: The Straw Hat Crew
+**Pirates, scheduling, and heaps of gold (literally)!**  
+Join the Straw Hat pirates in organizing treasure piles efficiently using custom-built heaps and intelligent task scheduling. It’s a fun and challenging dive into priority queues, greedy algorithms, and load balancing.
+
+➡️ *A must-see if you love One Piece or want to master heaps and scheduling policies.*
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Custom implementation of data structures (no external libraries)
+- Emphasis on algorithmic thinking and time complexity
+
+---
+
+## 🚀 Get Started
+
+You can clone the repo and try out any of the projects:
+
+```bash
+git clone https://github.com/your-username/Basic-Projects.git
+cd Basic-Projects
