@@ -44,10 +44,10 @@ Flight Planner is a Python-based flight route planner that leverages advanced da
    git clone https://github.com/Mahi928/Basic-Projects.git
    cd Flight Planner
    
-1. Run the example:
-  
-   python main.py
-   
+2. Run the example:
+  ```bash
+  python main.py
+  ```
 ---
 
 ## 🛠️ Features
