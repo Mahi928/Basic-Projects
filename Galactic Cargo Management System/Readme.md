@@ -1,6 +1,6 @@
 # Galactic Cargo Management System (GCMS)
 
-This project is part of **COL106 Assignment 2** and implements an efficient bin-packing system used in interstellar cargo logistics. The **Galactic Cargo Management System (GCMS)** is designed to manage cargo items with varying sizes and colors into bins of fixed capacities using different allocation strategies based on cargo color.
+This project implements an efficient bin-packing system used in interstellar cargo logistics. The **Galactic Cargo Management System (GCMS)** is designed to manage cargo items with varying sizes and colors into bins of fixed capacities using different allocation strategies based on cargo color.
 
 ## 🚀 Problem Background
 
