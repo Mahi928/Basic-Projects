@@ -55,8 +55,8 @@ Follow these steps to run the code locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Mahi928/Basic-Projects/treasure-quest.git
-   cd treasure-quest
+   git clone https://github.com/Mahi928/Basic-Projects.git
+   cd Treasure Quest
 2. **Ensure Python 3 is installed** on your system.
 3. **Run your test file or write your own test script** that uses the StrawHatTreasury class and invokes its methods.
    ## Example Test Structure:
