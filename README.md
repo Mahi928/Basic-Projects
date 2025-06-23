@@ -55,5 +55,5 @@ Join the Straw Hat pirates in organizing treasure piles efficiently using custom
 You can clone the repo and try out any of the projects:
 
 ```bash
-git clone https://github.com/your-username/Basic-Projects.git
+git clone https://github.com/Mahi928/Basic-Projects.git
 cd Basic-Projects
